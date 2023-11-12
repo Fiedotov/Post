@@ -1,0 +1,36 @@
+# Python
+*.pyc
+__pycache__/
+env/
+venv/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Database Systems (Pigsty, StackGres, Postgres)
+# Adjust the paths according to your project structure
+logs/
+*.log
+data/
+*.conf
+
+# Patroni
+# Specific files for Patroni (update as needed)
+
+# Kubernetes
+*.yaml
+*.yml
+# Exclude specific sensitive config files if they exist
+
+# Ansible
+*.vault
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Editor/IDE-specific
+.idea/
+.vscode/
